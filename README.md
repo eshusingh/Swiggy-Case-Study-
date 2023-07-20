@@ -24,3 +24,9 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 # Order Details
 <img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/cb85234b-74fe-4663-8f9e-2c23da496a02" width = 500 height = 400>
 
+# Case Study Questions
+1. Find customers who have never ordered.
+
+# HINTS
+1. Find those users whose user id is in users table but not in orders table.
+2. 
