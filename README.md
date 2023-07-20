@@ -29,6 +29,8 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 2. We need to calculate the average price at which we are providing each dish. 
 3. For the month of June, find the restaurant which had the maximum revenue.
 4. We need to recognize our top performers for the month of June (revenue greater than 500)
+5. We are very particular about our regular customers. We want to trace the orders made by Mr. Ankit who is one of our regular customers between 10th June to 10th July thus figuring out their brand loyalty.
+6.  
 
 
 # Results
