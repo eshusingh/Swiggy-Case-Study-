@@ -25,14 +25,15 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 <img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/cb85234b-74fe-4663-8f9e-2c23da496a02" width = 500 height = 400>
 
 # Case Study Questions
-1. Find customers who have never ordered.
-2. What is the average price per dish?
-3. Find top restaurant in terms of number of orders in June.
-4. Find restaurants with monthly sale greater than x.
+1. We need to figure out customers in our database who are dormant (have not ordered).
+2. We need to calculate the average price at which we are providing each dish.
+3. For the month of June, find the restaurant which had the maximum revenue.
+4. We need to recognize our top performers for the month of June (revenue greater than 500)
 # HINTS
 1. Find those users whose user id is in users table but not in orders table.
 2. Join menu and food tables and then group them by food id; using average as aggregate function.
 3. Extract the month from the given date; then use COUNT(*) to check which orders belong to the particular month. after than join orders table with restaurants.
+4. Concept of extracting month from date, using Sum aggregate function and Joins.
 
 # Results
 ## Query 1
@@ -42,6 +43,11 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 <img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/37ef9840-b60a-4fab-ab8e-a0d338e95714" width = 400 height = 400>
 
 ## Query 3
-<img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/b6608dd5-715d-4c6c-9341-2fe614da469e" width = 200 height = 200>
+<img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/b6608dd5-715d-4c6c-9341-2fe614da469e" width = 300 height = 200>
+
+## Query 4
+<img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/9b0cd682-b743-44e9-9a90-f09164f04b64" width = 300 height = 200>
+
+
 
 
