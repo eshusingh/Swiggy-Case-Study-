@@ -27,12 +27,12 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 # Case Study Questions
 1. Find customers who have never ordered.
 2. What is the average price per dish?
-3. Find top restaurant in terms of number of orders in a given month.
+3. Find top restaurant in terms of number of orders in June.
 4. 
 # HINTS
 1. Find those users whose user id is in users table but not in orders table.
 2. Join menu and food tables and then group them by food id; using average as aggregate function.
-3. 
+3. Extract the month from the given date; then use COUNT(*) to check which orders belong to the particular month. after than join orders table with restaurants.
 
 # Results
 ## Query 1
@@ -40,4 +40,8 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 
 ## Query 2
 <img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/37ef9840-b60a-4fab-ab8e-a0d338e95714" width = 400 height = 400>
+
+## Query 3
+<img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/b6608dd5-715d-4c6c-9341-2fe614da469e" width = 400 height = 400>
+
 
