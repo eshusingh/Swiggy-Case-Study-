@@ -29,11 +29,7 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 2. We need to calculate the average price at which we are providing each dish. 
 3. For the month of June, find the restaurant which had the maximum revenue.
 4. We need to recognize our top performers for the month of June (revenue greater than 500)
-# HINTS
-1. Find those users whose user id is in users table but not in orders table.
-2. Join menu and food tables and then group them by food id; using average as aggregate function.
-3. Extract the month from the given date; then use COUNT(*) to check which orders belong to the particular month. after than join orders table with restaurants.
-4. Concept of extracting month from date, using Sum aggregate function and Joins.
+
 
 # Results
 ## Query 1
