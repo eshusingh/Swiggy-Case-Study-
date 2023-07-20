@@ -27,12 +27,17 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 # Case Study Questions
 1. Find customers who have never ordered.
 2. What is the average price per dish?
-3. 
+3. Find top restaurant in terms of number of orders in a given month.
+4. 
 # HINTS
 1. Find those users whose user id is in users table but not in orders table.
 2. Join menu and food tables and then group them by food id; using average as aggregate function.
+3. 
 
 # Results
-## Query1
+## Query 1
 <img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/65794a55-102c-4bd8-bf68-d2fdb32f2143" width = 300 height = 200>
+
+## Query 2
+<img src = "https://github.com/eshusingh/Swiggy-Case-Study-/assets/96975090/37ef9840-b60a-4fab-ab8e-a0d338e95714" width = 400 height = 400>
 
