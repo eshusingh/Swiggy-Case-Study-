@@ -1,1 +1,5 @@
-
+# HINTS
+1. Find those users whose user id is in users table but not in orders table.
+2. Join menu and food tables and then group them by food id; using average as aggregate function.
+3. Extract the month from the given date; then use COUNT(*) to check which orders belong to the particular month. after than join orders table with restaurants.
+4. Concept of extracting month from date, using Sum aggregate function and Joins.
