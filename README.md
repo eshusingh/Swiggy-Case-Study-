@@ -26,7 +26,7 @@ Analyzing Swiggy's Database to determine the dynamics of the business
 
 # Case Study Questions
 1. We need to figure out customers in our database who are dormant (have not ordered).
-2. We need to calculate the average price at which we are providing each dish.
+2. We need to calculate the average price at which we are providing each dish. 
 3. For the month of June, find the restaurant which had the maximum revenue.
 4. We need to recognize our top performers for the month of June (revenue greater than 500)
 # HINTS
